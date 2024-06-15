@@ -1,0 +1,24 @@
+.portfolio{
+    margin-top: 5%;
+    position: relative;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    /* justify-content: start; */
+    /* align-items: center; */
+    margin-top: 10%;
+    text-align: start;
+    margin-left: 20%;
+}
+
+.portfolio button{
+    /* width: 1%; */
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    bottom: -5%;
+    border-color: #1572B6;
+    color: #1572B6;
+    border-radius: 34px;
+}

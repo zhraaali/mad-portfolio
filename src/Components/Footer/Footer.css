@@ -1,0 +1,17 @@
+.footer{
+    background-color: #3D3D3D;
+    width: 99vw;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    align-items: center;
+    height: 145px;
+    border-top-right-radius: 31px;
+    border-top-left-radius: 31px;
+}
+
+.footer-img{
+    width: 10vw;
+    display: flex;
+    gap: 10px;
+}

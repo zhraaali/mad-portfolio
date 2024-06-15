@@ -1,0 +1,29 @@
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.details-inner{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 15%; */
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.details-imgs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.details-imgs div{
+    display: flex;
+    align-items: center;
+
+}
+

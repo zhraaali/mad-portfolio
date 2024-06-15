@@ -1,0 +1,209 @@
+.hero{
+    position: relative;
+    margin-top: 20%;
+}
+
+.circular-border{
+    width: 233px;
+    height: 233px;
+    border: 2px solid ;
+    box-shadow:.5px .5px .5px .5px #ff000059,
+    .5px .5px .5px .5px #00C0FD,
+    .5px .5px .5px .5px #ff000060,
+             .5px .5px .5px .5px #00C0FD ;
+    /* border-image: linear-gradient(to right, #ff0000, #00ff00) 1; */
+    /* border-radius: 50%; */
+    /* width: fit-content; */
+    border-radius: 50%;
+    /* margin-bottom: 10%; */
+    margin-top: -5%;
+    overflow: hidden;
+  position: relative;
+}
+
+.circular-border::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(to right, #ff0000, #00C0FD); /* يمكنك تعديل الألوان حسب احتياجاتك */
+  
+  z-index: -1;
+}
+
+.circular-border img{
+    width: 98.7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+    /* height: auto; */
+    border-radius: 50%;
+
+}
+
+.hero-inner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 5%;
+    width: 90vw;
+}
+
+.hero-content{
+    width: 50%;
+    
+}
+
+.hero-content h1{
+    margin: 5% 0;
+}
+
+.img-social img{
+    margin: 3% 3%;
+}
+
+
+.rotating-image {
+
+  animation: slideAndRotate 4s forwards ;
+  animation-fill-mode: forwards;
+  width: 10%;
+  position: absolute;
+  }
+  
+
+  @keyframes slideAndRotate {
+    0% {
+      transform: translateX(0%) translateY() rotate(39.49deg);
+    }
+
+    100% {
+      transform: translateX(300%) translateY(170%) rotate(39.49deg);
+    }
+  }
+  
+  .animated-image {
+    position: fixed;
+    animation: slideAndRotate 4s forwards;
+  }
+
+
+
+.rotating-image2 {
+
+  animation: slideAndRotate2 2s forwards ;
+  animation-fill-mode: forwards;
+  width: 30%;
+  position: absolute;
+  top: 20%;
+  }
+  
+
+  @keyframes slideAndRotate2 {
+    0% {
+      transform: translateX(0%) translateY() rotate(164.32deg);
+    }
+    /* 50%{
+      transform: translateY(50%) rotate(164.32deg);
+    } */
+    100% {
+      transform: translateX(50%) translateY(130%) rotate(164.32deg);
+    }
+  }
+  
+
+
+.rotating-image3 {
+ 
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  animation: slideAndRotate3 2s forwards ;
+  animation-fill-mode: forwards;
+  width: 10%;
+  }
+  
+
+  @keyframes slideAndRotate3 {
+    0% {
+        transform: translateX() translateY() rotate(0deg);
+      }
+   
+    100% {
+      transform: translateX(90%) translateY(420%) rotate(0deg);
+    }
+  }
+  
+
+  
+
+.rotating-image4 {
+  position: absolute;
+  left: 40%;
+  bottom: 100%;
+    width: 10%;
+  animation: slideAndRotate4 2s forwards ;
+  animation-fill-mode: forwards;
+
+  }
+  
+
+  @keyframes slideAndRotate4 {
+    0% {
+        transform: translateX() translateY() rotate(0deg);
+      }
+   
+    100% {
+      transform: translateX(70%) translateY(340%) rotate(0deg);
+    }
+  }
+  
+.rotating-image5 {
+  position: absolute;
+  left: 96%;
+  animation: slideAndRotate5 2s forwards ;
+  animation-fill-mode: forwards;
+
+    width: max-content;
+  }
+  
+
+  @keyframes slideAndRotate5 {
+    0% {
+        transform: translateX() rotate(60deg);
+      }
+   
+    100% {
+      transform: translateX(-300%) translateY(170%) rotate(0deg);
+    }
+  }
+
+
+.rotating-image6 {
+ 
+  position: absolute;
+  left: 99%;
+  bottom: 40%;
+  animation: slideAndRotate6 2s forwards ;
+  animation-fill-mode: forwards;
+
+    width: max-content;
+  }
+  
+
+  @keyframes slideAndRotate6 {
+    0% {
+        transform: translateX()  rotate(49.04deg);
+      }
+   
+    100% {
+      transform: translateX(-270%) translateY(200%) rotate(0deg);
+    }
+  }
+  
+
+  
